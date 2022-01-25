@@ -36,11 +36,11 @@ const App = () => {
 
   return (
     <form style={{ margin: "0 auto" }} onSubmit={handleSubmit}>
-      <label style={{ textAlign: "center" }} htmlFor="nome">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="nome">
         Nome
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="nome"
         type="text"
         name="nome"
@@ -48,11 +48,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="email">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="email">
         Email
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="email"
         type="email"
         name="email"
@@ -60,11 +60,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="senha">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="senha">
         Senha
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="senha"
         type="password"
         name="senha"
@@ -72,11 +72,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="cep">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="cep">
         CEP
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="cep"
         type="text"
         name="cep"
@@ -84,11 +84,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="rua">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="rua">
         Rua
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="rua"
         type="text"
         name="rua"
@@ -96,11 +96,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="numero">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="numero">
         Número
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="numero"
         type="text"
         name="numero"
@@ -108,11 +108,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="bairro">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="bairro">
         Bairro
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="bairro"
         type="text"
         name="bairro"
@@ -120,11 +120,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="cidade">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="cidade">
         Cidade
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="cidade"
         type="text"
         name="cidade"
@@ -132,11 +132,11 @@ const App = () => {
         onChange={handleChange}
       />
 
-      <label style={{ textAlign: "center" }} htmlFor="estado">
+      <label style={{ position: "relative", left: "26%" }} htmlFor="estado">
         Estado
       </label>
       <input
-        style={{ width: "20rem", margin: "0 auto" }}
+        style={{ width: "60rem", margin: "0 auto" }}
         id="estado"
         type="text"
         name="estado"
@@ -148,7 +148,7 @@ const App = () => {
         style={{
           position: "relative",
           top: "50%",
-          left: "47.3%",
+          left: "70.2%",
           marginTop: "1rem",
         }}
       >
